@@ -1,0 +1,73 @@
+{
+    "Logistic Regression": {
+        "Hyperparameters": {
+            "C": 1.0,
+            "max_iter": 1000,
+            "random_state": 42
+        },
+        "Training Time (s)": 0.2976,
+        "Base Accuracy": 1.0
+    },
+    "SVM": {
+        "Hyperparameters": {
+            "C": 1.0,
+            "kernel": "linear",
+            "probability": true,
+            "random_state": 42
+        },
+        "Training Time (s)": 0.0517,
+        "Base Accuracy": 1.0
+    },
+    "Random Forest": {
+        "Hyperparameters": {
+            "n_estimators": 100,
+            "max_depth": 15,
+            "random_state": 42,
+            "n_jobs": -1
+        },
+        "Training Time (s)": 0.2487,
+        "Base Accuracy": 1.0
+    },
+    "LSTM": {
+        "Hyperparameters": {
+            "units": 64,
+            "epochs": 3
+        },
+        "Training Time (s)": 12.3157,
+        "Base Accuracy": 0.5
+    },
+    "GRU": {
+        "Hyperparameters": {
+            "units": 64,
+            "epochs": 3
+        },
+        "Training Time (s)": 13.6878,
+        "Base Accuracy": 0.5
+    },
+    "CNN 1D": {
+        "Hyperparameters": {
+            "filters": 128,
+            "epochs": 3
+        },
+        "Training Time (s)": 3.829,
+        "Base Accuracy": 1.0
+    },
+    "Isolation Forest": {
+        "Hyperparameters": {
+            "n_estimators": 150,
+            "contamination": 0.1,
+            "random_state": 42
+        },
+        "Training Time (s)": 0.1647,
+        "Base Accuracy": 0.5
+    },
+    "Autoencoder": {
+        "Hyperparameters": {
+            "epochs": 10,
+            "batch_size": 32,
+            "latent_dim": 16
+        },
+        "Training Time (s)": 2.152,
+        "Base Accuracy": 0.65
+    }
+}
