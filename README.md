@@ -6,6 +6,8 @@ converted into text and structural features, and classified as normal or
 malicious. Malicious queries receive a 403 response and are stored in a
 forensic quarantine vault.
 
+**Live demo:** https://georgenduul-detectionofsqlinjectionattacksondatabase-app-vwaoog.streamlit.app/
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -294,7 +296,6 @@ pytest test_strategy.py -v
 ## Tech Stack
 
 Python, scikit-learn, TensorFlow/Keras, Streamlit, pandas, NumPy, pytest
-
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
