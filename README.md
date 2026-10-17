@@ -62,4 +62,4 @@ This creates `data/raw/normal/` and `data/raw/malicious/`.
 
 Add your key metrics here (accuracy, precision, recall, latency).
 
-![Dashboard](images/dashboard.png)
+![Dashboard](<Screenshot 2026-10-17 183846.png>)
