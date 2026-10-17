@@ -188,6 +188,8 @@ The Streamlit console has three tabs:
 
 ![Stress engine benchmark](images/stress_benchmark.png)
 
+The live demo runs on Streamlit Community Cloud, so its benchmark figures
+will differ from the results measured locally.
 **Model used by the dashboard.** `app.py` does not load the model trained in
 the notebook. On startup it builds its own small Random Forest on eight
 hardcoded example queries, with 10 trees and a maximum depth of 5. This keeps
